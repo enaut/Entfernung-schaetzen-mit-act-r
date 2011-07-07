@@ -191,7 +191,7 @@
 		(chunk-type Wegpunkt Name)
 		(chunk-type Status Hauptstatus Unterstatus Blickrichtung Oben Unten Rechts Links)
 		
-		; Die
+		; Das Gedächtniss
 		(add-dm
 				(goal isa Status Hauptstatus Bewegung Unterstatus BeginneOrientierungsPhase)			; Setze den Status auf Orientierung
 				(gray isa chunk)														; Wird im Button verwendet
